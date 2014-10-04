@@ -18,5 +18,5 @@ dtCHI <- data.table(CHI, key="V1")
 newATL <- merge(dtATL, dtAge)
 newCHI <- merge(dtCHI, dtAge)
 
-write.csv(newATL, "newATL.csv")
-write.csv(newCHI, "newCHI.csv")
+write.csv(newATL, "newATL.txt")
+write.csv(newCHI, "newCHI.txt")
