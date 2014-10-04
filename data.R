@@ -1,0 +1,1 @@
+n241 <- read.csv("nsegment241.txt",colClasses = c("character"), header=FALSE)
